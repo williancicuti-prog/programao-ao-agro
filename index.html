@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoAgro | Agrinho 2026</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">🌱 EcoAgro 2026</div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre o Projeto</a></li>
+                <li><a href="#praticas">Práticas Sustentáveis</a></li>
+                <li><a href="#contato">Participe</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>O Futuro do Campo é Sustentável</h1>
+            <p>Projeto focado em tecnologia e educação ambiental para o programa Agrinho 2026. Acompanhe as melhores práticas para a agricultura familiar.</p>
+            <button id="cta-btn">Descubra Como</button>
+        </div>
+    </section>
+
+    <section id="praticas" class="features">
+        <h2>Pilares da Sustentabilidade</h2>
+        <div class="cards-container">
+            <div class="card" onclick="mostrarDetalhe('agua')">
+                <h3>💧 Gestão de Água</h3>
+                <p>Uso de tecnologias de irrigação inteligente para evitar o desperdício.</p>
+            </div>
+            <div class="card" onclick="mostrarDetalhe('solo')">
+                <h3>🌍 Cuidado com o Solo</h3>
+                <p>Rotação de culturas e adubação orgânica para manter a terra fértil.</p>
+            </div>
+            <div class="card" onclick="mostrarDetalhe('tech')">
+                <h3>📱 Agrotech</h3>
+                <p>Aplicativos e sensores para monitorar a saúde da plantação em tempo real.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 EcoAgro. Desenvolvido para o Agrinho.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
